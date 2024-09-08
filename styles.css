@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #09000E; /* Darker purple */
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+header {
+    display: flex;
+    flex-direction: column; /* Stack logo and heading vertically */
+    align-items: flex-start; /* Align items to the start (left) */
+    margin-top: 50px;
+    width: 100%;
+    max-width: 1200px; /* Optional: set a max-width for larger screens */
+    padding: 0 20px; /* Optional: add padding to prevent content from touching edges */
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px; /* Space between the logo and heading */
+}
+
+.header-title {
+    width: 100%; /* Full width to allow centering of the heading */
+    text-align: center; /* Center the heading */
+}
+
+h1 {
+    font-size: 48px;
+    margin: 0; /* Remove default margin to keep heading aligned */
+}
+
+main {
+    text-align: center;
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.highlight {
+    color: #b383ff;
+}
+
+.image-container {
+    perspective: 1000px;
+    margin-top: 20px;
+}
+
+.image-container img {
+    width: 500px;
+    height: auto;
+    transition: transform 0.5s ease-out;
+    transform-origin: center;
+    border: 2px solid #b383ff;
+    border-radius: 10px;
+}
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+.footer-icons img {
+    width: 50px;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+}
+
+.footer-icons img:hover {
+    transform: scale(1.1);
+}
+
+p {
+    font-size: 14px;
+    color: #aaa;
+}
